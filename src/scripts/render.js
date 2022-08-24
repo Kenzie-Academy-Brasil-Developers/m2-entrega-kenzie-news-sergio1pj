@@ -5,6 +5,7 @@ export class Render {
         const tagLi = Render.renderCard(news);
         tagUl.append(tagLi);
       });
+      tagUl.classList.add("news__container");
       return tagUl;
     }
     static renderCard(news) {
@@ -22,6 +23,7 @@ export class Render {
       tagSpan.innerText = `fonte: ${news.fonte}`;
       tagDiv.append(tagH4, tagH2, tagP, tagSpan);
       tagLi.append(tagImg, tagDiv);
+      tagLi.classList.add("news__container__item");
       return tagLi
     }
   }

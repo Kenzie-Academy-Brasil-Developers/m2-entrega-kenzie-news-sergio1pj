@@ -47,6 +47,7 @@ header {
 .news__container__item > div .news__category {
     height: 18px;
     background-color: var(--azul-claro);
+    padding: 2px 8px;
 }
 .news__container__item > div .news__category h4 {
     font-size: 0.75rem;

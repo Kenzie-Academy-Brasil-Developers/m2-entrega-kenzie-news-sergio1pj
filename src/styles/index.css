@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--cinza-claro);
+    font-size: 0.75rem;
 }
 header {
     background-color: var(--azul);
@@ -79,6 +80,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.75rem;
+   
     font-weight: 300;
 }

@@ -15,7 +15,7 @@ header {
     padding: 20px;
     margin-bottom: 35px;
 }
-.news__container {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +24,7 @@ header {
     height: 100%;
     gap: 48px;
 }
-.news__container__item {
+.container__item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,10 +34,10 @@ header {
     color: var(--preto);
     background-color: var(--branco);
 }
-.news__container__item > img {
+.container__item  img {
     display:none;
 }
-.news__container__item > div  {
+.container__item > div  {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -45,31 +45,53 @@ header {
     width: 490px;
     height: 110px;
 }
-.news__container__item > div .news__category {
-    height: 18px;
+.container__item > div .category {
     background-color: var(--azul-claro);
     padding: 2px 8px;
     margin-bottom: 16px;
 }
-.news__container__item > div .news__category h4 {
+.container__item > div .category h4 {
     font-weight: 500;
     line-height: 0.875rem;
     color: var(--azul);
 }
-.news__container__item > div h2 {
+.container__item > div h2 {
     font-family: 'Roboto Slab', serif;
     font-size: 1rem;
     font-weight: 500;
     color: var(--azul);
     margin-bottom: 16px;
 }
-.news__container__item > div p {
+.container__item > div p {
     font-weight: 400;
     margin-bottom: 16px;
 }
-.news__container__item > div span {
+.container__item > div span {
     font-size: 0.625rem;
     font-weight: 300;
+}
+.top {
+    margin-bottom: 50px;
+}
+.top .container .container__item {
+    background-color: var(--cinza-claro);
+   justify-content: space-around;
+}
+.top .container__item > div .category {
+    padding: 2px 10px;
+}
+.top .container__item > div .category h4 {
+    font-size: 0.625rem;
+    line-height: 0.75rem;
+}
+.top .container .container__item > div h2 {
+    font-size: 1.75rem;
+}
+.top .container .container__item > div p {
+    display:none;
+}
+.top .container .container__item > div span {
+    display:none;
 }
 footer {
     background-color: var(--cinza);

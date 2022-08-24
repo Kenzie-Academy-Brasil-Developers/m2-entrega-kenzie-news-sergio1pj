@@ -5,7 +5,7 @@ export class Render {
       const tagLi = Render.renderCard(news);
       tagUl.append(tagLi);
     });
-    tagUl.classList.add("news__container");
+    tagUl.classList.add("container");
     return tagUl;
   }
   static renderCard(news) {
@@ -23,10 +23,10 @@ export class Render {
     tagP.innerText = news.resumo;
     tagSpan.innerText = `fonte: ${news.fonte}`;
     tagDivH4.append(tagH4);
-    tagDivH4.classList.add("news__category");
+    tagDivH4.classList.add("category");
     tagDiv.append(tagDivH4, tagH2, tagP, tagSpan);
     tagLi.append(tagImg, tagDiv);
-    tagLi.classList.add("news__container__item");
+    tagLi.classList.add("container__item");
     return tagLi
   }
 }

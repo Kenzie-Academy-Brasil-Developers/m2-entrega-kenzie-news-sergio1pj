@@ -52,7 +52,6 @@ header {
     margin-bottom: 16px;
 }
 .news__container__item > div .news__category h4 {
-    font-size: 0.75rem;
     font-weight: 500;
     line-height: 0.875rem;
     color: var(--azul);
@@ -65,7 +64,6 @@ header {
     margin-bottom: 16px;
 }
 .news__container__item > div p {
-    font-size: 0.75rem;
     font-weight: 400;
     margin-bottom: 16px;
 }

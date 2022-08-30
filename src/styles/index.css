@@ -15,11 +15,8 @@ main {
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin: 3rem 0;
-    gap: 4rem;
-}
-.news {
-    padding: 20px;
+    margin: 3.4rem 0;
+    gap: 4.7rem;
 }
 .container {
     display: flex;
@@ -35,7 +32,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: max(522px, 47%);
+    width: 522px;
     height: 180px;
     color: var(--preto);
     background-color: var(--branco);

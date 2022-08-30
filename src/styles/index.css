@@ -83,7 +83,7 @@ footer {
     font-weight: 300;
     height: 48px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1226px) {
     .container {
         flex-direction: row;
         justify-content: space-between;
@@ -102,6 +102,9 @@ footer {
     }
     .container__item > div {
         margin-left: 2rem;
+    }
+    .top {
+        margin: 6rem 0 2.75rem 0;
     }
     .top .container {
         justify-content: center;

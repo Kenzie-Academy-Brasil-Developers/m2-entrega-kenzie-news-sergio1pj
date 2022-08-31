@@ -111,7 +111,7 @@ footer {
     font-weight: 300;
     height: 48px;
 }
-@media (min-width: 1226px) {
+@media (min-width: 1201px) {
     .container {
         flex-direction: row;
         justify-content: space-between;

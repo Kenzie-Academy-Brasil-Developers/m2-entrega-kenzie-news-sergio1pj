@@ -148,7 +148,6 @@ footer {
         width: 623px;
     }
     .container__item:first-child > div .category {
-        padding: 2px 10px 2px 10px;
         margin-bottom: 1.5rem;
     }
     .container__item:first-child > div .category h4 {

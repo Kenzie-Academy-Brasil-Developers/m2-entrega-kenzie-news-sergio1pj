@@ -95,7 +95,7 @@ footer {
     .container__item img{
         display: block;
         width: 32%;
-        height: 100%;
+        height: 208px;
     }
     .container__item > div {
         width: 68%;
@@ -108,7 +108,7 @@ footer {
     }
     .container__item:first-child img {
         width:357px;
-        height: 100%;
+        height: 360px;
     }
     .container__item:first-child > div {
         width: 623px;
